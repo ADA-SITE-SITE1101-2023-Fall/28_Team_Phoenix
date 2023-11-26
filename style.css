@@ -1,0 +1,138 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #330000;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #660000;
+  color: #ffffff;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.header img {
+  vertical-align: middle;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.header h1 {
+  font-family: "VT323", monospace;
+  font-size: 50px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.navigation {
+  display: flex;
+  background-color: #550000;
+  overflow: hidden;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  justify-content: center;
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #dd7200;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.teamname {
+  display: block;
+  font-weight: bolder;
+  color: rgb(255, 211, 211);
+  font-size: 40px;
+  font-family: "VT323", monospace;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slides {
+  display: none;
+}
+
+.slideimg {
+  width: 60%;
+  max-height: 50%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  max-height: 300px;
+}
+
+.fade {
+  display: flex;
+  justify-content: center;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.infotext {
+  margin: 50px;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #550000;
+}
